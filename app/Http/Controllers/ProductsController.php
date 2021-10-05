@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-class ExampleController extends Controller
+use App\Models\Products;
+use Illuminate\Http\Request;
+
+class ProductsController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -11,8 +14,5 @@ class ExampleController extends Controller
      */
     public function __construct()
     {
-        //
     }
-
-    //
 }
