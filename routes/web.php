@@ -12,3 +12,8 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
+
+$router->post('/', 'ProductsController@create');
+$router->get('/', 'ProductsController@read');
+$router->put('/{id}', 'ProductsController@update');
+$router->delete('/{id}', 'ProductsController@delete');
